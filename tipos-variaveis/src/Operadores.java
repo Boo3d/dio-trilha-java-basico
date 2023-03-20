@@ -124,5 +124,23 @@ public class Operadores {
         System.out.println( nomeUm == nomeDois);
 
         System.out.println( nomeUm.equals(nomeDois));
+
+        boolean condicao1 = true;
+
+        boolean condicao2 = false;
+
+        if(condicao1 && condicao2) {
+            System.out.println("As condições são verdadeiras.");
+        } else if (condicao1 || condicao2) {
+            System.out.println("Uma da condições é verdadeira");
+        }
+
+        condicao2 = true;
+
+        if(condicao1 && condicao2) {
+            System.out.println("As condições são verdadeiras.");
+        } else if (condicao1 || condicao2) {
+            System.out.println("Uma da condições é verdadeira");
+        }
     }
 }
